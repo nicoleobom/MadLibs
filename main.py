@@ -48,5 +48,7 @@ noun5 = input("Enter another regular noun: ")
 
 madlibtxt = madlibtxt.replace("noun", noun, 1).replace("noun2", noun2, 1).replace("noun3", noun3, 1).replace("noun4", noun4, 1).replace("noun5", noun5, 1)
 
+madlibtxt = madlibtxt.replace("plural", plural_noun, 1).replace("plural2", plural_noun2, 1).replace("plural3", plural_noun3, 1)
+
 # Print to console
 print(madlibtxt)
