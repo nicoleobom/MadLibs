@@ -44,6 +44,9 @@ person1 = input("Name a person in the same room or household as you: ")
 
 person2 = input("Name another person in the same room or household as you: ")
 
-# Replace!
+# Replace nouns!
 
-madlibtxt = madlib.
+madlibtxt = madlib.replace("noun", noun).replace("noun2", noun2).replace("noun3", noun3).replace("noun4", noun4).replace("noun5", noun5)
+
+# Print to console
+print(madlibtxt)
