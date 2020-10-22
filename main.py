@@ -14,9 +14,9 @@ madlibtxt = f.read()
 
 # room = input("Enter the name of a room: ")
 
-# plural_noun = input("Enter a plural noun: ")
+plural_noun = input("Enter a plural noun: ")
 
-# plural_noun2 = input("Enter another plural noun: ")
+plural_noun2 = input("Enter another plural noun: ")
 
 noun = input("Gimme a noun!: ")
 
@@ -30,7 +30,7 @@ noun4 = input("And yet another noun: ")
 
 # number = input("Now enter a number: ")
 
-# plural_noun3 = input("Enter a plural noun: ")
+plural_noun3 = input("Enter a plural noun: ")
 
 noun5 = input("Enter another regular noun: ")
 
