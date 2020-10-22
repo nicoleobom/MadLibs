@@ -1,3 +1,6 @@
+import random
+
+# Establish inputs for madlibs
 intro = input("Hi! What's your name?")
 
 adjective = input("Enter an adjective: ")
