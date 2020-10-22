@@ -1,4 +1,9 @@
 import random
+# open madlibs file
+f = open('madlibs.txt', 'r')
+
+# read file and store each line in a list.
+madlibtxt = f.read()
 
 # Establish inputs for madlibs
 intro = input("Hi! What's your name?")
@@ -39,3 +44,6 @@ person1 = input("Name a person in the same room or household as you: ")
 
 person2 = input("Name another person in the same room or household as you: ")
 
+# Replace!
+
+madlibtxt = madlib.
