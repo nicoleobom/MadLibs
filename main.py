@@ -6,7 +6,7 @@ f = open('madlibs.txt', 'r')
 madlibtxt = f.read()
 
 # Establish inputs for madlibs
-# intro = input("Hi! What's your name?")
+intro = input("Hi! What's your name?")
 
 adjective = input("Enter an adjective: ")
 
@@ -43,6 +43,9 @@ noun5 = input("Enter another regular noun: ")
 # person1 = input("Name a person in the same room or household as you: ")
 
 # person2 = input("Name another person in the same room or household as you: ")
+
+# Replace user:
+madlibtxt = madlibtxt.replace("firstname", intro, 1)
 
 # Replace nouns!
 madlibtxt = madlibtxt.replace("noun", noun, 1).replace("noun2", noun2, 1).replace("noun3", noun3, 1).replace("noun4", noun4, 1).replace("noun5", noun5, 1)
