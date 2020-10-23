@@ -8,9 +8,9 @@ madlibtxt = f.read()
 # Establish inputs for madlibs
 # intro = input("Hi! What's your name?")
 
-# adjective = input("Enter an adjective: ")
+adjective = input("Enter an adjective: ")
 
-# adjective2 = input("Enter another adjective: ")
+adjective2 = input("Enter another adjective: ")
 
 # room = input("Enter the name of a room: ")
 
@@ -24,7 +24,7 @@ noun2 = input("Gimme another noun!: ")
 
 noun3 = input("Ok, one more noun: ")
 
-# adjective3 = input("Let's change it up. Give me an adjective: ")
+adjective3 = input("Let's change it up. Give me an adjective: ")
 
 noun4 = input("And yet another noun: ")
 
